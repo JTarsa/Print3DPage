@@ -1,0 +1,189 @@
+{
+  "Header": {
+    "title": "Druk 3D",
+    "paragraph": "Specjalizujemy się w druku 3D przy wykorzystaniu technologii FDM, która jest najpopularniejszą metodą przyrostowego tworzenia elementów. Dzięki jednej z najbardziej zaawansowanych drukarek dostępnych na rynku, z polem roboczym o wymiarach 256x256x256 mm, jesteśmy w stanie sprostać różnorodnym wymaganiom naszych klientów"
+  },
+  "About": {
+    "paragraph": "W naszej firmie specjalizujemy się w kompleksowym projektowaniu wydruków 3D, dostosowanych do indywidualnych potrzeb naszych klientów. Od pomysłu do finalnego produktu. Używamy zaawansowanego oprogramowania do tworzenia precyzyjnych modeli 3D, które następnie przekształcamy w wysokiej jakości wydruki, spełniające wszelkie oczekiwania. Niezależnie od tego, czy potrzebujesz prototypu, części zamiennej, czy unikalnego produktu na zamówienie – z nami masz pewność, że Twój projekt zostanie zrealizowany z najwyższą dbałością o szczegóły.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Printers":[
+{
+    "icon" : "https://cdn1.botland.com.pl/121875-pdt_540/drukarka-3d-bambu-lab-x1-carbon-combo.jpg",
+    "name" : "Bambu Lab X1 Carbon Combo",
+    "text" : "Bambu Lab X1 Carbon Combo to zaawansowana drukarka 3D, którą wykorzystujemy do tworzenia precyzyjnych i trwałych wydruków. Dzięki automatycznej kalibracji, systemowi wielomateriałowemu AMS i prędkości druku do 500 mm/s, możemy realizować nawet najbardziej skomplikowane projekty w krótkim czasie. Idealna do pracy z filamentami wzmocnionymi włóknem węglowym, zapewnia doskonałą jakość i wytrzymałość naszych produktów."
+},
+{
+  "icon" : "https://cdn2.botland.com.pl/121995-pdt_540/drukarka-3d-bambu-lab-p1s-combo.jpg",
+  "name" : "Bambu Lab P1S Combo",
+  "text" : "Bambu Lab P1S Combo to nowoczesna drukarka 3D, która łączy zaawansowaną technologię z prostotą obsługi. Wyposażona w automatyczną kalibrację i system wielomateriałowy AMS, umożliwia szybkie i precyzyjne drukowanie skomplikowanych projektów. Dzięki zamkniętej komorze druku zapewnia stabilne warunki pracy, co przekłada się na wysoką jakość wydruków. P1S Combo to niezawodne rozwiązanie dla każdego, kto potrzebuje wszechstronnej drukarki 3D do tworzenia trwałych i precyzyjnych produktów."
+}
+
+  ],
+  "Services": [
+    {
+      "icon": "https://cdn2.botland.com.pl/c/855-category_default/filamenty-smart-abs.jpg",
+      "name": "ABS SMART",
+      "text": " Wytrzymały materiał często wykorzystywany w inżynierii i technice. Charakteryzuje się wysoką odpornością na uderzenia, twardością oraz odpornością na wysokie temperatury, co czyni go idealnym do zaawansowanych zastosowań technicznych."
+    },
+    {
+      "icon": "https://cdn2.botland.com.pl/c/849-category_default/filamenty-petg.jpg",
+      "name": "PETG",
+      "text": "Materiał łączący zalety PLA i ABS. Charakteryzuje się wysoką wytrzymałością, elastycznością oraz odpornością na działanie chemikaliów, promieniowanie UV i wilgoć. Idealny do zastosowań, gdzie wymagana jest większa trwałość."
+    },
+    {
+      "icon": "https://cdn2.botland.com.pl/c/965-category_default/filamenty-tpu-i-flex.jpg",
+      "name": "TPU",
+      "text": "Przeznaczone do tworzenia elastycznych elementów. Materiały te są odporne na ścieranie, działanie różnych płynów eksploatacyjnych, oraz mają doskonałą spójność między warstwami. Świetnie nadają się do elementów absorbujących energię."
+    },
+
+    {
+      "icon": "https://cdn3.botland.com.pl/c/844-category_default/filamenty-pla.jpg",
+      "name": "PLA",
+      "text": "Popularny materiał, cechujący się twardością i kruchością. Z uwagi na niską temperaturę mięknienia (ok. 50 °C), PLA jest doskonały do tworzenia modeli, które nie będą narażone na wysokie temperatury."
+    }
+   
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Kraków ",
+    "phone": "+48 728 4941 32",
+    "email": "move3d@wp.pl",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Konkurencyjne ceny",
+      "text": "W Mov3D każde zlecenie wyceniane jest indywidualnie. Cena projektu może różnić się w zależności od wielkości wydruku i wykorzystanego materiału."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Wysoka jakość",
+      "text": "W Mov3D wykorzystujemy różnorodne tworzywa, takie jak PLA, PET-G, ABS, czy TPU (filamenty typu FLEX) aby dobrać materiał wydruku do specyfiki projektu"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Łatwy kontakt",
+      "text": "Zachęcamy do kontaktu z nami poprzez nasze media społecznościowe, formluarz zgłoszeniowy znajdujący u dołu strony oraz na numer telefonu. Czekamy na Państwa zgłoszenia :)"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Indywidualne podejście",
+      "text": "Mov3D jest idealnym rozwiązaniem dla prywatnych osób jak i firm. Jakość tworzyw i technika druku pozwala nam na dostosowanie wydruków do specyficznych potrzeb naszych klientów"
+    }
+  ]
+}

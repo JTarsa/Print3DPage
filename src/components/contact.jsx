@@ -111,8 +111,8 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                </span>
+                <a class="contact-details" href="tel:+48123123123">{props.data ? props.data.phone : "loading"}</a>
               </p>
             </div>
             <div className="contact-item">

@@ -8,7 +8,7 @@ export const Services = (props) => {
           <h2>Materiały</h2>
           <p></p>
         </div>
-        <div className="zjeb">
+        <div className="box">
           {props.data
             ? props.data.map((d, i) => (
                 <div

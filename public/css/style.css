@@ -354,6 +354,16 @@ header .intro-text {
 #services h2 {
   color: #000000;
 }
+.zjeb {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: -15px;
+  margin-left: -15px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
+}
 #services .section-title h2::after {
   position: absolute;
   content: "";
@@ -364,6 +374,16 @@ header .intro-text {
 
   margin-left: -30px;
   left: 50%;
+}
+#services .box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: -15px;
+  margin-left: -15px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 }
 #services i.fa {
   font-size: 42px;
@@ -410,6 +430,16 @@ header .intro-text {
 
   margin-left: -30px;
   left: 50%;
+}
+#printers .box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: -15px;
+  margin-left: -15px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
 }
 #printers i.fa {
   font-size: 42px;
@@ -688,16 +718,7 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
-.zjeb {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin-right: -15px;
-  margin-left: -15px;
-  @media (max-width: 1200px) {
-    flex-direction: column;
-  }
-}
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;

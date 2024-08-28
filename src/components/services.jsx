@@ -13,7 +13,7 @@ export const Services = (props) => {
             ? props.data.map((d, i) => (
                 <div
                   key={`${d.name}-${i}`}
-                  className="share2"
+                  className="share"
                   style={{ border: "1px solid #000", borderRadius: "11px" }}
                 >
                   {" "}

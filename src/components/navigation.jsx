@@ -30,7 +30,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Mov3D
+            Move3D
           </a>
         </div>
 
@@ -41,27 +41,47 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll" onClick={handleNavItemClick}>
+              <a
+                href="#about"
+                className="page-scroll"
+                onClick={handleNavItemClick}
+              >
                 Projekty
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll" onClick={handleNavItemClick}>
+              <a
+                href="#services"
+                className="page-scroll"
+                onClick={handleNavItemClick}
+              >
                 Materiały
               </a>
             </li>
             <li>
-              <a href="#printers" className="page-scroll" onClick={handleNavItemClick}>
+              <a
+                href="#printers"
+                className="page-scroll"
+                onClick={handleNavItemClick}
+              >
                 Drukarki
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll" onClick={handleNavItemClick}>
+              <a
+                href="#portfolio"
+                className="page-scroll"
+                onClick={handleNavItemClick}
+              >
                 Galeria
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll" onClick={handleNavItemClick}>
+              <a
+                href="#contact"
+                className="page-scroll"
+                onClick={handleNavItemClick}
+              >
                 Kontakt
               </a>
             </li>

@@ -15,16 +15,22 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
+    {
+      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
+    }
+
     emailjs
-      .sendForm("service_ppifobf", "template_uolcj9u", e.target, "IKwTcbRz4Vop-b0l5")
+      .sendForm(
+        "service_ppifobf",
+        "template_uolcj9u",
+        e.target,
+        "IKwTcbRz4Vop-b0l5"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -44,7 +50,9 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Skontaktuj się z nami</h2>
                 <p>
-                Proszę wypełnić poniższy formularz, aby wysłać do nas wiadomość e-mail, a my skontaktujemy się z Tobą tak szybko, jak to możliwe.
+                  Proszę wypełnić poniższy formularz, aby wysłać do nas
+                  wiadomość e-mail, a my skontaktujemy się z Tobą tak szybko,
+                  jak to możliwe.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -112,7 +120,9 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>
-                <a class="contact-details" href="tel:+48123123123">{props.data ? props.data.phone : "loading"}</a>
+                <a class="contact-details" href="tel:+48780154807">
+                  {props.data ? props.data.phone : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">
@@ -148,7 +158,7 @@ export const Contact = (props) => {
             </div>
           </div>
         </div>
-      </div>  
       </div>
+    </div>
   );
 };

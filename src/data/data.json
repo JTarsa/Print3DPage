@@ -36,47 +36,46 @@
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
+      "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
+      "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
+      "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
+      "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
+      "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
+      "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Printers":[
-{
-    "icon" : "https://cdn1.botland.com.pl/121875-pdt_540/drukarka-3d-bambu-lab-x1-carbon-combo.jpg",
-    "name" : "Bambu Lab X1 Carbon Combo",
-    "text" : "Bambu Lab X1 Carbon Combo to zaawansowana drukarka 3D, którą wykorzystujemy do tworzenia precyzyjnych i trwałych wydruków. Dzięki automatycznej kalibracji, systemowi wielomateriałowemu AMS i prędkości druku do 500 mm/s, możemy realizować nawet najbardziej skomplikowane projekty w krótkim czasie. Idealna do pracy z filamentami wzmocnionymi włóknem węglowym, zapewnia doskonałą jakość i wytrzymałość naszych produktów."
-},
-{
-  "icon" : "https://cdn2.botland.com.pl/121995-pdt_540/drukarka-3d-bambu-lab-p1s-combo.jpg",
-  "name" : "Bambu Lab P1S Combo",
-  "text" : "Bambu Lab P1S Combo to nowoczesna drukarka 3D, która łączy zaawansowaną technologię z prostotą obsługi. Wyposażona w automatyczną kalibrację i system wielomateriałowy AMS, umożliwia szybkie i precyzyjne drukowanie skomplikowanych projektów. Dzięki zamkniętej komorze druku zapewnia stabilne warunki pracy, co przekłada się na wysoką jakość wydruków. P1S Combo to niezawodne rozwiązanie dla każdego, kto potrzebuje wszechstronnej drukarki 3D do tworzenia trwałych i precyzyjnych produktów."
-}
-
+  "Printers": [
+    {
+      "icon": "https://cdn1.botland.com.pl/121875-pdt_540/drukarka-3d-bambu-lab-x1-carbon-combo.jpg",
+      "name": "Bambu Lab X1 Carbon Combo",
+      "text": "Bambu Lab X1 Carbon Combo to zaawansowana drukarka 3D, którą wykorzystujemy do tworzenia precyzyjnych i trwałych wydruków. Dzięki automatycznej kalibracji, systemowi wielomateriałowemu AMS i prędkości druku do 500 mm/s, możemy realizować nawet najbardziej skomplikowane projekty w krótkim czasie. Idealna do pracy z filamentami wzmocnionymi włóknem węglowym, zapewnia doskonałą jakość i wytrzymałość naszych produktów."
+    },
+    {
+      "icon": "https://cdn2.botland.com.pl/121995-pdt_540/drukarka-3d-bambu-lab-p1s-combo.jpg",
+      "name": "Bambu Lab P1S Combo",
+      "text": "Bambu Lab P1S Combo to nowoczesna drukarka 3D, która łączy zaawansowaną technologię z prostotą obsługi. Wyposażona w automatyczną kalibrację i system wielomateriałowy AMS, umożliwia szybkie i precyzyjne drukowanie skomplikowanych projektów. Dzięki zamkniętej komorze druku zapewnia stabilne warunki pracy, co przekłada się na wysoką jakość wydruków. P1S Combo to niezawodne rozwiązanie dla każdego, kto potrzebuje wszechstronnej drukarki 3D do tworzenia trwałych i precyzyjnych produktów."
+    }
   ],
   "Services": [
     {
@@ -100,7 +99,6 @@
       "name": "PLA",
       "text": "Popularny materiał, cechujący się twardością i kruchością. Z uwagi na niską temperaturę mięknienia (ok. 50 °C), PLA jest doskonały do tworzenia modeli, które nie będą narażone na wysokie temperatury."
     }
-   
   ],
   "Testimonials": [
     {
@@ -157,10 +155,10 @@
     }
   ],
   "Contact": {
-    "address": "Kraków ",
-    "phone": "+48 728 4941 32",
+    "address": "38-350 Bobowa, ul. Widok 18",
+    "phone": "+ 48 780 154 807",
     "email": "move3d@wp.pl",
-    "facebook": "fb.com",
+    "instagram": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
@@ -168,12 +166,12 @@
     {
       "icon": "fa fa-comments-o",
       "title": "Konkurencyjne ceny",
-      "text": "W Mov3D każde zlecenie wyceniane jest indywidualnie. Cena projektu może różnić się w zależności od wielkości wydruku i wykorzystanego materiału."
+      "text": "W Move3D każde zlecenie wyceniane jest indywidualnie. Cena projektu może różnić się w zależności od wielkości wydruku i wykorzystanego materiału."
     },
     {
       "icon": "fa fa-bullhorn",
       "title": "Wysoka jakość",
-      "text": "W Mov3D wykorzystujemy różnorodne tworzywa, takie jak PLA, PET-G, ABS, czy TPU (filamenty typu FLEX) aby dobrać materiał wydruku do specyfiki projektu"
+      "text": "W Mov3eD wykorzystujemy różnorodne tworzywa, takie jak PLA, PET-G, ABS, czy TPU (filamenty typu FLEX) aby dobrać materiał wydruku do specyfiki projektu"
     },
     {
       "icon": "fa fa-group",

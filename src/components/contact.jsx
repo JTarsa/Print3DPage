@@ -7,6 +7,15 @@ const initialState = {
   email: "",
   message: "",
 };
+
+// Funkcja formatująca URL, dodająca 'https://' jeśli brakuje protokołu
+const formatUrl = (url) => {
+  if (!url.startsWith("http://") && !url.startsWith("https://")) {
+    return `https://${url}`;
+  }
+  return url;
+};
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -14,15 +23,12 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
 
     emailjs
       .sendForm(
@@ -41,6 +47,7 @@ export const Contact = (props) => {
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -120,7 +127,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>
-                <a class="contact-details" href="tel:+48780154807">
+                <a className="contact-details" href="tel:+48780154807">
                   {props.data ? props.data.phone : "loading"}
                 </a>
               </p>
@@ -129,7 +136,7 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
+                </span>
                 {props.data ? props.data.email : "loading"}
               </p>
             </div>
@@ -139,18 +146,12 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <a
+                      href={props.data ? formatUrl(props.data.instagram) : "/"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>

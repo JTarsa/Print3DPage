@@ -8,7 +8,6 @@ const initialState = {
   message: "",
 };
 
-// Funkcja formatująca URL, dodająca 'https://' jeśli brakuje protokołu
 const formatUrl = (url) => {
   if (!url.startsWith("http://") && !url.startsWith("https://")) {
     return `https://${url}`;
@@ -18,6 +17,7 @@ const formatUrl = (url) => {
 
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [notification, setNotification] = useState(""); // Stan do powiadomienia
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -40,10 +40,12 @@ export const Contact = (props) => {
       .then(
         (result) => {
           console.log(result.text);
-          clearState();
+          clearState(); // Wyczyść formularz po wysłaniu
+          setNotification("Wiadomość została pomyślnie wysłana."); // Ustaw powiadomienie
         },
         (error) => {
           console.log(error.text);
+          setNotification("Wystąpił błąd podczas wysyłania wiadomości."); // Ustaw powiadomienie o błędzie
         }
       );
   };
@@ -73,6 +75,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name} // Powiąż stan z wartością inputa
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -87,6 +90,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email} // Powiąż stan z wartością inputa
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -101,6 +105,7 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message} // Powiąż stan z wartością inputa
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
@@ -110,6 +115,11 @@ export const Contact = (props) => {
                   Wyślij
                 </button>
               </form>
+              {notification && (
+                <div className="alert alert-info" role="alert">
+                  {notification}
+                </div>
+              )}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">

@@ -20,47 +20,47 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
@@ -157,7 +157,7 @@
   "Contact": {
     "address": "38-350 Bobowa, ul. Widok 18",
     "phone": "+ 48 780 154 807",
-    "email": "move3d@wp.pl",
+    "email": "move3djakubkosiek@gmail.com",
     "instagram": "instagram.com/move3d_",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
